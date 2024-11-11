@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pingpong.css">
+</head>
+
+<body>
+    <h2 class="gameheading">PING PONG GAME</h2>
+    <section class="left-box big-box player--1 active-player">
+        <div class="left">
+            <h2 class="player">PLAYER 1</h2>
+            <p class="score" id="score1">0</p>
+            <div class="lower-box">
+                <h3 class="heading">CURRENT</h3>
+                <p class="totalscr " id="scr1">0</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="right-box big-box player--2">
+        <div class="right">
+            <h2 class="player">PLAYER 2</h2>
+            <p class="score" id="score2">0</p>
+            <div class="lower-box">
+                <h3 class="heading">CURRENT</h3>
+                <p class="totalscr " id="scr2">0</p>
+            </div>
+        </div>
+    </section>
+    <button class="newgame">New game</button>
+        <button class="btn btn-roll">Roll Dice</button>
+        <button class="btn btn-hold" >Hold</button>
+        <img class="dice " src="Images/Dice-3.jpg" alt="Dice img." >
+       
+        <!-- <div class="winner">Winner
+            <p>Refresh to play new game</p>
+        </div> -->
+    <script src="pong.js"></script>
+</body>
+
+</html>

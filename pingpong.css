@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(206, 84, 105);
+    transition-duration: 0.7s;
+}
+
+.big-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    height: 500px;
+    top: 3%;
+    margin-top: 9%;
+    text-align: center;
+    /* background: bisque; */
+}
+
+body{
+    display: flex;
+}
+
+.player{
+    position: relative;
+    font-size: 50px;
+    margin-top: 25px;
+    background: none;
+
+}
+.score{
+font-size: 50px;
+color: white;
+margin-top: 10px;
+/* background: none; */
+background: none;
+}
+.lower-box{
+    position: relative;
+    /* border :2px solid rgb(158, 151, 151); */
+    width: 30%;
+    height: 70px;
+    margin-left: 33%;
+    margin-top: 48%;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #f0173d;
+}
+.heading{
+    font-size: 20px;
+    background: none;
+}
+.totalscr{
+    font-size: 20px;
+    margin-top: 9%;
+    background: none;
+}
+.left-box{
+    margin-left: 20%;
+    background: rgb(161, 130, 130);
+}
+.left{
+    background:none;
+}
+.right{
+    background: none;
+}
+.right-box{
+    
+    background: rgb(161, 130, 130);
+}
+.newgame{
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    left: 46.5%;
+    top: 22%;
+    padding: 10px;
+    background: #d6c4c4;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.btn{
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    padding: 10px;
+    background: #d6c4c4;
+    border-radius: 16px;
+    cursor: grab;
+    width: 97px;
+}
+.btn-roll{
+    width: 123px;
+    left: 46%;
+    top: 65%;
+
+    
+}
+.btn-hold{
+    padding: 3px;
+    width: 76px;
+    left: 47.5%;
+    top: 75%;
+}
+.dice{
+    position: absolute;
+    display: inline;
+    background: #d6c4c4;
+    border-radius: 16px;
+    width: 105px;
+    width: 76px;
+    left: 47.5%;
+    top: 45%;
+    transition: 1s;
+}
+.hide{
+    display: none;
+}
+.active-player{
+    background:rgb(138, 170, 91);
+}
+.winner{ 
+    position:absolute;
+    background: greenyellow;
+    height: 100%;
+    width: 100%;
+    font-size: 200px;
+    transition: 2s;
+}
+/* .winner p{
+    font-size: 50px;
+    text-align: center;
+    top: 400px;
+    position: relative;
+
+} */
+.player-winner{
+    color: rgb(47, 166, 230);
+    background: greenyellow;
+}
+.gameheading{
+    position: absolute;
+    font-size: 56px;
+    /* text-align: center; */
+    /* margin: auto; */
+    display: block;
+    align-items: center;
+    /* border: 2px solid; */
+    left: 33%;
+    margin-top: 1%;
+    color: #9de8ff;
+}
